@@ -85,7 +85,7 @@ public class CompanyTest {
     public void testEmployeeInstanceTypes() throws NoSuchFieldException {
         assertThat(employee.getFullName(), instanceOf(String.class));
         assertThat(employee.getEmail(), instanceOf(String.class));
-        assertThat(employee.getHealthPlans(), instanceOf(String[].class));
+        assertThat(employee.getHealthplans(), instanceOf(String[].class));
     }
 
     @DisplayName("addHealthplan method başarılı çalışıyor mu?")
